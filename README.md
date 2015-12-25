@@ -209,6 +209,51 @@ else
 end
 ```
 
+## Live events
+
+### [live#index - List of live events](https://api.producthunt.com/v1/docs/live_events/live_index_list_of_live_events)
+
+Get the list of live events.
+
+```ruby
+client = ProductHunt::Client.new('mytoken')
+
+live_events = client.events
+live_events.size 			# -> 30
+live_events[0]["name"] 		# -> "Justin Bailey"
+live_events[0]["id"]    	# -> 99
+live_events[0]["tagline"]	# -> "The CEO of Fig, a new crowd-funding site for games that offers equity."
+```
+
+### [live#index - Filter by newer](https://api.producthunt.com/v1/docs/live_events/live_index_filter_by_newer)
+
+Get the list of events with newer date
+
+```ruby
+client = ProductHunt::Client.new('mytoken')
+
+live_events = clients.events(per_page: 1, limit: 3, newer: "2016-01-01")
+live_events[0]["name"]		# -> "Justin Kan"
+live_events[0]["id"]		# -> 382
+live_events[0]["tagline"]	# -> "Partner, Y Combinator"
+```
+
+### [live#show - Get details of a live event](https://api.producthunt.com/v1/docs/live_events/live_show_get_details_of_a_live_event)
+
+Get the specific event details using a required numeric ID.
+
+```ruby
+client = ProductHunt::Client.new('mytoken')
+
+live_event = client.event(99)
+live_event["name"] 		# => "Justin Bailey"
+live_event["tagline"]	# => "The CEO of Fig, a new crowd-funding site for games that offers equity."
+```
+
+
+
+
+
 ## Tests
 
 There are two ways to run tests:

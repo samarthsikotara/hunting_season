@@ -1,0 +1,63 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+  "live_event": {
+    "background_image_url": "https://ph-files.imgix.net/6aa3f7d6-f717-4927-be20-62793341effe",
+    "category_id": 2,
+    "ends_at": "2015-08-18T13:54:20.410-07:00",
+    "id": 99,
+    "name": "Justin Bailey",
+    "schedule_image_url": null,
+    "starts_at": "2015-08-18T13:00:00.000-07:00",
+    "subscriber_count": 102,
+    "tagline": "The CEO of Fig, a new crowd-funding site for games that offers equity.",
+    "live_video": false,
+    "guests": [
+      {
+        "id": 291748,
+        "name": "Justin Bailey ------",
+        "headline": "CEO",
+        "created_at": "2015-08-17T13:34:00.392-07:00",
+        "username": "justinbailey12d",
+        "twitter_username": "justinbailey12d",
+        "website_url": "http://www.facebook.com/JUSTINBAILEY12D",
+        "image_url": {
+          "30px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=30&h=30",
+          "32px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=32&h=32",
+          "40px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=40&h=40",
+          "44px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=44&h=44",
+          "48px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=48&h=48",
+          "50px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=50&h=50",
+          "60px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=60&h=60",
+          "64px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=64&h=64",
+          "73px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=73&h=73",
+          "80px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=80&h=80",
+          "88px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=88&h=88",
+          "96px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=96&h=96",
+          "100px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=100&h=100",
+          "110px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=110&h=110",
+          "120px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=120&h=120",
+          "132px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=132&h=132",
+          "146px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=146&h=146",
+          "160px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=160&h=160",
+          "176px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=176&h=176",
+          "220px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=220&h=220",
+          "264px": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=264&h=264",
+          "32px@2X": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=64&h=64",
+          "40px@2X": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=80&h=80",
+          "44px@2X": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=88&h=88",
+          "88px@2X": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=176&h=176",
+          "32px@3X": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=96&h=96",
+          "40px@3X": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=120&h=120",
+          "44px@3X": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=132&h=132",
+          "88px@3X": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=264&h=264",
+          "original": "https://ph-avatars.imgix.net/291748/original?auto=format&fit=crop&crop=faces&w=original&h=original"
+        },
+        "profile_url": "https://www.producthunt.com/@justinbailey12d"
+      }
+    ],
+    "twitter_username": "justinbailey12d",
+    "url": "https://www.producthunt.com/live/justin-bailey"
+  }
+}

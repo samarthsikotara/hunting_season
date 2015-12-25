@@ -10,7 +10,7 @@ module ProductHunt
       @attributes[key]
     end
 
-    [:user, :post].each do |method|
+    [:user, :post, :event].each do |method|
       eval <<-GENERATED_METHOD
         def #{method}
           if @client.is_a?(Client) && @attributes['#{method}'].is_a?(Hash) && @attributes['#{method}']['id']
